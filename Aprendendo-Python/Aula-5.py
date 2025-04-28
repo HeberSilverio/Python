@@ -20,19 +20,18 @@
 
 #### A mesma coisa que encima mas com semantica
 
-# dado = 10
-# print(f"Conteúdp da variavel dado: {dado}")
+dado = 10
+print(f"Conteúdp da variavel dado: {dado}")
 
-# dado += 1 # = dado = dado + 1
-# print(f"Cimteúdo da variável dado, depois do incremento: {dado}")
+dado += 1 # = dado = dado + 1
+print(f"Cimteúdo da variável dado, depois do incremento: {dado}")
 
-# dado -= 1 # = dado = dado - 1
-# print(f"Comteúdo da variável dado, depois do decremento: {dado}")
+dado -= 1 # = dado = dado - 1
+print(f"Comteúdo da variável dado, depois do decremento: {dado}")
 
-# dado *= 2 # = dado = dado * 2
-# print(f"Cimteúdo da variável dado, depois de duplicar: {dado}")
+dado *= 2 # = dado = dado * 2
+print(f"Cimteúdo da variável dado, depois de duplicar: {dado}")
 
-# dado /= 2 # = dado = dado / 2
-# print(f"Comteúdo da variável dado, depois de dividir: {dado}")
+dado /= 2 # = dado = dado / 2
+print(f"Comteúdo da variável dado, depois de dividir: {dado}")
 
-# -------------------------------------------------------------------------------------------------------------------------
