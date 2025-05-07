@@ -4,12 +4,17 @@ mat = [
    [9, 10, 11, 12]
 ]
 
-print("Elementos da primeira linha:")
-for elem in mat[0]:
-   print(elem, end=" ")
-print() 
-print("Todos os elementos de mat:")
-for linha in mat:
-   for elem in linha:
-      print(elem, end=" ")
-   print() 
+maior = mat[0][0]
+menor = mat[0][0]
+pos_maior = (0, 0)
+pos_menor = (0, 0)
+
+print("Os maiores e numeros")
+for i in range(len(mat)):
+   for j in range(len(mat[i])):
+      if mat[i][j] > maior:
+         maior = mat[i][j]
+         pos_maior = (i, j)
+      if mat[i][j] < menor:
+         menor = mat[i][j]
+         pos_menor = (i, j)
