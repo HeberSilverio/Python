@@ -1,5 +1,5 @@
 v = []
-s = 0
+s = int(input(0))  
 
 for i in range(5):
    dado = int(input("Digite um numero inteiro:"))
@@ -11,4 +11,4 @@ media = s / 5
 for elem in v:
    print(elem, " ", end="") 
    
-print(f"Média dos elementos: {media}")
+print(f"Média dos elementos = {media}")

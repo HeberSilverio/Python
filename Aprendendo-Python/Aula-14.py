@@ -13,3 +13,4 @@ for linha in mat:
    for elem in linha:
       print(elem, end=" ")
    print() 
+   
